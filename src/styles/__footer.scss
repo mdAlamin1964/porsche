@@ -1,0 +1,111 @@
+// Footer ONe //
+.main-footer {
+    background: $footer-black;
+    padding: $footer-padding;
+
+    .style-h3 {
+        margin-bottom: 20px;
+    }
+
+    .language-sac {
+        
+        .language-img {
+            color: white;
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+                overflow: hidden;
+                border: 1px solid $condition-text-color;
+                margin-right: 10px;
+            }
+
+            .change-lang-btn {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .footer-info {
+
+        .style-paragraph-1 {
+            color:white;
+            margin-bottom: 0px;
+            height: 40px;
+        }
+
+        .site-btn-3 {
+            padding: 14px 0;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .social-icon {
+
+            .site-btn-3 {
+                padding: 12px 20px;
+                width: 60px;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+
+
+
+
+    .footer-bottom {
+        padding-bottom: 80px;
+        border-bottom: 1px solid $border-color;
+        .footer-bottom-ul {
+            display:grid;
+            column-gap: 36px;
+            grid-template-columns: repeat(3, 300px);
+
+            li {
+                margin-bottom: 3px;
+
+                .text-link-underline {
+                    text-decoration: none;
+                }
+            }   
+        }
+    }
+
+
+    .footer-bottom-copy {
+        
+        .style-paragraph-1 {
+            color: white;
+        }
+
+        .main-logo {
+           padding-top: 7%;
+        }
+    }
+}
+
+
+
+
+// Footer one end
+
+
+// Footer two
+.footer-2-main {
+    background: $footer2-bg;
+    padding: $footer-padding;
+
+    .footer-2-top {
+        border-bottom: 1px solid $border-color;
+    }
+
+    .footer-bottom {
+        margin: 20px 0;
+
+        .style-paragraph-1 {
+            color: white;
+        }
+    }
+}
+// Footer two end

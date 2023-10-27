@@ -1,0 +1,99 @@
+// HOME PAGE
+.home-sac-1 {
+    position: relative;
+    height: $video-saction-height;
+    .home-sac-1-title {
+        position: absolute;
+        bottom: 20%;
+        padding: $vidoe-saction-padding;
+    }
+
+    .icon-pause {
+        position:absolute;
+        bottom: 30px;
+        right: 40px;
+        .site-primary-btn {
+            padding: 15px;
+            width: 46px;
+        }
+    }
+}
+
+
+.home-sac{
+    padding:7% $site-padding-rl;
+    padding-bottom: 20px;
+}
+
+
+.home-sac-padding-tb{
+    padding:7% 0;
+    padding-bottom: 20px;
+}
+
+.home-sac-8{
+    padding-bottom: 7%;;
+}
+// HOME page END
+
+
+
+
+
+
+
+
+// Search PAGE
+.page-search {
+
+    .search-btn  {
+        margin: 15px 10px;
+    }
+
+    .condition-text-style-1 {
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+
+    .results {
+        min-height: 400px;
+    }
+
+
+
+    .more-saction {
+
+        .sac-title {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .text-link-underline{
+            color: $primary-black;
+            font-size: 18px;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary-red;
+            }
+        }
+
+
+        .list {
+            .list-ul{
+                li {
+                    display: inline-block;
+                    padding: 0 15px;
+                    border-left: 1px solid $hover-dark;
+                }
+                li:nth-child(1) {
+                    border: none;
+                }
+            }
+        }
+    }
+
+}
+
+
+// Search page end

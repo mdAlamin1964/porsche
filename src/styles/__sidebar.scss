@@ -1,0 +1,136 @@
+
+.menu-sidebar {
+    position: absolute;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    & > .row {
+        margin-right: 0;
+    }
+
+
+    .menu-sidebar-right {
+        padding: 0px 20px;
+        position: relative;
+        .empty-area {
+            height: 100%;
+            width: 100%;
+            position:absolute;
+            top:0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .icon {
+            position: absolute;
+            z-index: 2;
+            top:10px
+        }
+        .icon-back {
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            .site-primary-btn {
+                color: $primary-black;
+                border:none;
+                font-size: 25px;
+                &:hover {
+                    background: $hover-dark;
+                }
+            }
+        }
+        
+    }
+
+    .left {
+        background-color: white;
+        padding: $sidebar-side-padding;
+        padding-right: 20px;
+        height: 100vh;
+        overflow-y: scroll;
+        padding-top: 4em;
+        ul li {
+            margin-bottom: 15px;
+            a{
+                font-size: 22px;
+                color: $primary-black;
+                padding: 13px;
+                border-radius: 5px;
+                display: block;
+                &:hover, &.active {
+                    background: $sidebar-bnt-hover;
+                }
+    
+                .icon-menu {
+                    float: right;
+                    margin-left: -40px;
+                }
+            }
+        }
+    }
+
+    .right {
+        padding: $sidebar-side-padding;
+        background-color: #eeeff2;
+        height: 100vh;
+        overflow-y: scroll;
+        padding:0 2em;
+        padding-top: 4em;
+        .models-box {
+            text-align: center;
+            ul {
+                padding: 0;
+                display: inline-block;
+                margin: auto;
+            }
+            ul li {               
+                border-radius: 4px;
+                max-width: 200px;
+                &:hover {
+                    background: $hover-dark;
+                }
+            }
+
+
+
+            .models-box-img {
+                width: 100%;
+                padding: 10px; 
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .text-box {
+            
+
+            ul {
+                padding: 0;
+
+                li {
+                    margin-bottom: 30px;
+                    a{
+                        font-size: 20px;
+                        line-height:20px;
+                        color: $primary-black;
+                        padding: 7px;
+                        border-radius: 5px;
+                        display: inline-block;
+                        &:hover {
+                            background: $hover-dark;
+                        }
+            
+                        .icon-menu {
+                            float: right;
+                            margin-left: -40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

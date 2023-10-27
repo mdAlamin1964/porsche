@@ -1,0 +1,12 @@
+@mixin add-fonts($font-name, $font-url) {
+    @font-face {
+        font-family: $font-name;
+        src: url($font-url);
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@include add-fonts('porsche-next', '../fonts/porsche-next.otf');
+@include add-fonts('porsche-next-thin', '../fonts/porsche-next-thin.otf');
+@include add-fonts('porsche-next-semibold', '../fonts/porsche-next-semibold.otf');
