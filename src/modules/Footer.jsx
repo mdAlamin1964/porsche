@@ -1,5 +1,5 @@
 import React from 'react'
-export default function Footer() {
+export default function Footer({ghUrl}) {
     return (
         <>
             <div className="main-footer">
@@ -8,7 +8,7 @@ export default function Footer() {
                         Current Region / Language
                     </h3>
                     <div className="language-img">
-                        <img src="./src/assets/usa-flag1.jpg" alt="" /> 
+                        <img src={ghUrl+"./src/assets/usa-flag1.jpg"} alt="" /> 
                         <span>United States / English</span> <a href="#" className='change-lang-btn text-link-underline'>change</a>
                     </div>
                 </div>

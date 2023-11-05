@@ -1,5 +1,4 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
 import FindCenter from './modules/findCenter'
 import Footer from './modules/Footer'
 import Footer2 from './modules/Footer2'
@@ -36,7 +35,6 @@ function App() {
     })
   }, [])
 
-  console.log(currentWidth, "al")
   const deskWidth = 992;
   const tabWidth = 768;
   const mobileWidth = 576;
@@ -144,6 +142,9 @@ function App() {
 
 
 
+  // Image url fix for gh pages
+  let ghUrl = "https://raw.githubusercontent.com/mdAlamin1964/porsche/main/" 
+
   return (
     <>
       <div className="container-fluid px-0 overflow-hidden">
@@ -157,28 +158,24 @@ function App() {
             ""
           }
 
-        <Routes>
           {/* Home page */}
-          <Route path='/porsche' element = {
             <>  
                 {mainHeader('')}
                 <Home 
-                  findCenter={<FindCenter />}
+                  findCenter={<FindCenter ghUrl={ghUrl}/>}
                   video_play = {() => videoPlay()}
+                  ghUrl = {ghUrl}
                 />
-                <Footer />
+                <Footer ghUrl={ghUrl} />
             </>
-          } />
 
           {/* Search page */}
-          <Route path='/porsche/search' element={
-            <>  
-                {mainHeader('main-header-page')}
-                <Search />
-                <Footer2 />
-            </>
-          } />
-        </Routes>
+          {/* <>  
+              {mainHeader('main-header-page')}
+              <Search />
+              <Footer2 />
+          </> */}
+
       </div>
     </>
   )
