@@ -159,7 +159,7 @@ function App() {
 
         <Routes>
           {/* Home page */}
-          <Route path='/' element = {
+          <Route path='/porsche' element = {
             <>  
                 {mainHeader('')}
                 <Home 
@@ -171,7 +171,7 @@ function App() {
           } />
 
           {/* Search page */}
-          <Route path='/search' element={
+          <Route path='/porsche/search' element={
             <>  
                 {mainHeader('main-header-page')}
                 <Search />
