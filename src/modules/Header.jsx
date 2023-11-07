@@ -22,7 +22,7 @@ export default function Header({show_menu, user_option, page_style}) {
                     </div>
                     <div className="col-4">
                         <div className="float-end">
-                            <a href="/search">
+                            <a href="#">
                                 <i className=" fa fa-search icon-primary icon-hover" aria-hidden="true"></i>
                             </a>
                             <a href="#" onClick={user_option}>

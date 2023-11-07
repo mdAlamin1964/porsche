@@ -106,14 +106,14 @@ function App() {
 
   
   // Logo link
-  if (loadingDone) {
-    var mainLogo = document.querySelectorAll('.header-logo')
-    mainLogo.forEach(n=> 
-        n.addEventListener('click', () => {
-          window.location = '/'
-        })
-      )
-  }
+  // if (loadingDone) {
+  //   var mainLogo = document.querySelectorAll('.header-logo')
+  //   mainLogo.forEach(n=> 
+  //       n.addEventListener('click', () => {
+  //         window.location = '/'
+  //       })
+  //     )
+  // }
 
 
   // Header user option
