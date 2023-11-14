@@ -447,6 +447,7 @@ i {
   justify-content: left;
   gap: 20px;
   margin-left: 7%;
+  padding: 0 20px;
 }
 .online-shop-module .slider-products .slider-items {
   border-radius: 15px;
@@ -846,11 +847,21 @@ i {
   .login-module .site-btn {
     width: 100%;
   }
+  .main-logo {
+    text-align: center;
+  }
   .main-logo .header-logo-img {
-    display: block;
+    display: inline-block;
   }
   .main-logo .header-logo-name {
     display: none;
+  }
+  .online-shop-module .slider-products .slider-products-ul {
+    margin-left: 0;
+  }
+  .online-shop-module .slider-products .slider-items {
+    width: 100%;
+    max-width: 400px;
   }
 }
 @media (max-width: 576px) {

@@ -68,31 +68,22 @@ export default function Footer({ghUrl}) {
                                 <a href="#" className='text-link-underline'>Porsche at galance</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Sustainability</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Careers</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Partner Forum</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Affiliates</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Press</a>
                             </li>
                             <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
-                            </li>
-                            <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
-                            </li>
-                            <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
-                            </li>
-                            <li>
-                                <a href="#" className='text-link-underline'>Porsche at galance</a>
+                                <a href="#" className='text-link-underline'>Contact</a>
                             </li>
                         </ul>
                     </div>
